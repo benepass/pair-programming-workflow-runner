@@ -1,4 +1,0 @@
-run = ["python3"]
-entrypoint = "main.py"
-nix = "nixos-22.05"
-
