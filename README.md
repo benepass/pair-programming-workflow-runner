@@ -1,4 +1,7 @@
 # Workflow Runner
+
+[![Run on Repl.it](https://replit.com/badge/github/benepass/pair-programming-workflow-runner)](https://replit.com/new/github/benepass/pair-programming-workflow-runner)
+
 We have a set of actions, each of which takes in some parameters and outputs a value. We’d like to run a particular workflow, which is just a sequence of actions, with a particular set of parameters for each one, and collect their outputs.
 The output from one action A can be a parameter to another action B, when this is the case, we say that B depends on A, as B cannot run until A has produced its output.
 
